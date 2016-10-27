@@ -1,124 +1,72 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>e-Learning Mobile App - Boldchild School - This app was proudly Designed &amp; Developed by KPIE Technologies</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<head>
+<title>BoldChild School | Home :Display Homework web pages</title>
+<!-- Script tag for offline phonegap event handler --> 
+<script type= "text/javascript"
+charset= "utf-8" src = "cordova.js" ></script>
+<script type= "text/javascript"
+charset= "utf-8" >
+// Wait for device API libraries to load
+//
+function onLoad() {
+document.addEventListener
+( "deviceready " , onDeviceReady,
+false );
+}
+// device APIs are available
+//
+function onDeviceReady() {
+document.addEventListener
+( "offline " , onOffline, false );
+}
+// Handle the offline event
+//
+function onOffline() 
+{
+	window.location = "offline.html" ;
+}
+</script>
+<!-- End Script tag for offline phonegap event handler -->  
+<!-- For-Mobile-Apps-and-Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fortune Estates Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, SmartPhone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps-and-Meta-Tags -->
+<!-- Custom Theme files -->
+<link href="fortuneestates/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="fortuneestates/css/style.css" type="text/css" rel="stylesheet" media="all">  
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="fortuneestates/js/jquery-2.2.3.min.js"></script> 
+<!-- //js -->
+<!-- web-fonts -->  
+<link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts --> 
+</head>
+<body onload= " onLoad() ">
+	<div class="main-row">
+		<h1><b>BOLD</b><b>C</b>hild</h1>
+		<div class="main_frame">
+			<iframe class="frame-border scroll-pane" src="http://boldchildschool.com/category/basic-one" frameborder="0"></iframe>
+		</div>
+	</div>
+	<div class="copy-right">
+		<p>&copy; 2017 <a href="mailto://fxroyalmoneysolution@gmail.com">BoldChild Schools</a> | All Rights Reserved <br>Design by <a href="tel://+2347035705023">Idowu James</a>, CEO <a href="mailto:fxroyalmoneysolution@gmail.com">KPIE Technologies</a></p>
+	</div>
+	<script src="fortuneestates/js/jquery.nicescroll.min.js"></script> 
+	<script>
+	  $(document).ready(function() {
+	  
+		var nice = $("html").niceScroll();  // The document page (body)
 		
+		$("#div1").html($("#div1").html()+' '+nice.version);
 		
-		<script type="text/javascript"> 
-       function hideLoading() { 
-            document.getElementById('divLoading').style.display = "none"; 
-            document.getElementById('divFrameHolder').style.display = "block"; 
-        } 
-		</script> 
-
-	</head>
-	<body>
-
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Primary One</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">About</a></li>
-								<li><a href="elements.html">e-Learning</a></li>
-									<ul>
-										<li><a href="primary1.html">Primary 1</a></li>
-										<li><a href="primary2.html">Primary 2</a></li>
-										<li><a href="primary3.html">Primary 3</a></li>
-										<li><a href="primary4.html">Primary 4</a></li>
-										<li><a href="primary5.html">Primary 5</a></li>
-										<li><a href="primary6.html">Primary 6</a></li>
-									</ul>
-								<li><a href="login.html">Log In</a></li>
-								<li><a href="register.html">Sign Up</a></li>
-								<li><a href="games.html">Play Free Games</a></li>
-									<ul>
-										<li><a href="games/BounceGame.html">Bounce Game</a></li>
-										<li><a href="games/HangmanCountriesCities.html">Hangman Countries Cities</a></li>
-										<li><a href="games/HitTheDot.html">Hit The Dot</a></li>
-										<li><a href="games/jargon-bingo.html">Jargon Bingo</a></li>
-										<li><a href="games/MagicSquares.html">Magic Squares</a></li>
-										<li><a href="games/typingtestgamesscript.html">Typing Test Games</a></li>
-									</ul>
-								
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<form id="form1" runat="server"> 
-						<div id="divLoading"> 
-							<img src="images/logo2.jpg" alt="" /> 
-						</div> 
-						<div id="divFrameHolder" style="display:none"> 
-							<iframe src="http://boldchildschool.com/category/basic-one/" onload="hideLoading()" frameborder="0" width="100%" height="650px"> 
-							
-							</iframe> 
-
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						
-							<p>
-								<h1>
-									...
-								</h1>
-							</p>
-							
-							<ul class="contact">
-								<li class="fa-home">
-									BoldChild School<br />
-									50/52 Temitope Street, Ilasamaja, Oshodi-Isolo <br />
-									Lagos, Nigeria 
-								</li>
-								<li class="fa-phone">(+234) 0802 313 3005</li>
-								<li class="fa-envelope"><a href="#">admin@boldchildschool.com</a></li>
-								<li class="fa-twitter"><a href="#">twitter.com/boldchildschool.com</a></li>
-								<li class="fa-facebook"><a href="#">facebook.com/boldchildschool.com</a></li>
-								<li class="fa-instagram"><a href="#">instagram.com/boldchildschool.com</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; BoldChild School. All rights reserved.</li><li>Design: <a href="tel://+2347035705023">KPIE Technologies</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+		$("#boxscroll").niceScroll(); // First scrollable DIV
+		
+	  });
+	</script>
+</body>
 </html>

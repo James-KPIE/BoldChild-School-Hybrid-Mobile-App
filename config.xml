@@ -1,10 +1,12 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.KPIEtechnologies.BoldChildSchool" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.KPIEtechnologies.BoldChildSchool" version="2.0.0">
   <name>BoldChild School</name>
   <description>Mobile app for eLearning in BoldChild School - Powered by Kpie Technologies.</description>
   <author href="http://phonegap.com" email="idg1209@hotmail.com">Idowu James</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
+  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreenDelay" value="10000" />
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
   <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1"/>
   <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0"/>
@@ -28,7 +30,6 @@
   <icon src="icon.png"/>
   <platform name="android">
     <icon src="icon.jpg"/>
-    
     <splash src="splash.jpg"/>
     
   </platform>
