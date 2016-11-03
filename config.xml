@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.KPIEtechnologies.BoldChildSchool" version="2.0.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.KPIEtechnologies.BoldChildSchool" versionCode = "20011" version="2.0.1">
   <name>BoldChild</name>
   <description>Mobile app for eLearning in BoldChild School - Powered by Kpie Technologies.</description>
   <author href="http://phonegap.com" email="idg1209@hotmail.com">Idowu James</author>
